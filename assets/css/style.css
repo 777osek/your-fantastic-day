@@ -67,6 +67,21 @@ h1,h2 {
     border-bottom: 2px solid #a940c9;
 }
 
+/* section happy people */
+
+#happy-people {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#happy-people-image {
+    height: 600px;
+    width: 100%;
+    background: url("../");
+}
+
 /* footer */
 
 footer {
@@ -80,10 +95,20 @@ footer {
     text-align: center;
 }
 
+div > p {
+    font-size: 110%;
+}
+
 .social-networks {
     text-align: center;
 }
 
 .social-networks > li {
     display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    padding-right: 30px;
+    color: black;
 }
