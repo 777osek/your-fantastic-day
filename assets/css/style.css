@@ -10,6 +10,7 @@ body {
     font-family: lato, sans-serif;
     font-weight: 300;
     color: #4e4e4e;
+    background-color: #cac4ce;
 }
 
 /* heading and logo */
@@ -53,9 +54,12 @@ h1,h2 {
 }
 
 #menu a:hover {
+    padding: 5px;
+    background-color: #fff;
     border-bottom: 2px solid #a940c9;
 }
 
 .active {
+    padding: 5px;
     border-bottom: 2px solid #a940c9;
 }
