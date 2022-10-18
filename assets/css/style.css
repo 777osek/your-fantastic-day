@@ -79,7 +79,20 @@ h1,h2 {
 #happy-people-image {
     height: 600px;
     width: 100%;
-    background: url("../");
+    background: url("../images/happy-people.jpg")no-repeat center top;
+    background-size: contain;
+    animation-name: happy-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes happy-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 /* footer */
