@@ -70,16 +70,16 @@ h1,h2 {
 /* section happy people */
 
 #happy-people {
-    height: 600px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #happy-people-image {
-    height: 600px;
+    height: 650px;
     width: 100%;
-    background: url("../images/happy-people.jpg")no-repeat;
+    background: url("../images/happy-people.jpg")no-repeat center -95px;
     background-size: cover;
     animation-name: happy-zoom;
     animation-duration: 5s;
@@ -89,7 +89,7 @@ h1,h2 {
 #challenge-text {
     font-size: 130%;
     font-family: roboto, sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     letter-spacing: 1px;
     width: 300px;
@@ -97,12 +97,84 @@ h1,h2 {
     padding: 20px;
     background-color: rgba(169, 64, 201, .8);
     background-position: center;
-    bottom: 40px;
-    left: 600px;
+    border-radius: 10px;
+    top: 30px;
+    left: 620px;
     position: absolute;
 }
 
 /* section challenge statments */
+
+#challenge-question {
+    height: 600px;
+}
+
+#left-challenge {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-challenge {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-challenge {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #a940c9;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-challenge-text {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-challenge-text {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-challenge-text h2 {
+    text-align: right;
+}
+
+#challenge {
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #a940c9;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url("../images/Challenge-1.png") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
 
 
 
@@ -111,7 +183,7 @@ h1,h2 {
         transform: scale(1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
