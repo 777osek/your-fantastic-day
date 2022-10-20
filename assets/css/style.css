@@ -3,13 +3,10 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    border:none;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    border: none;
     font-family: lato, sans-serif;
     font-weight: 300;
     color: #4e4e4e;
@@ -32,6 +29,7 @@ h1,h2 {
     font-size: 280%;
     margin-left: 30px;
 }
+
 
 /* navigation */
 
@@ -132,6 +130,7 @@ h1,h2 {
 }
 
 #center-challenge {
+    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
 }
@@ -145,25 +144,21 @@ hr {
 .left-challenge-text {
     width: 90%;
     float: right;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .right-challenge-text {
     width: 90%;
     float: left;
-    line-height: 20px;
+    line-height: 30px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
-.left-challenge-text h3 {
+.right-challenge-text h2 {
     text-align: left;
-}
-
-.right-challenge-text h3 {
-    text-align: right;
 }
 
 #challenge {
@@ -175,7 +170,7 @@ hr {
 #circle-container {
     width: 300px;
     height: 300px;
-    padding: 15px;
+    padding: 30px;
     border-style: solid;
     border-color: #a940c9;
     border-width: 1px;
@@ -222,4 +217,57 @@ div > p {
     font-size: 200%;
     padding-right: 30px;
     color: black;
+}
+
+/* media screen less then 950px wide and down */
+
+@media screen and (max-width:1200px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #challenge {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #challenge-text {
+        left: 0;
+    }
+
+    #challenge-question {
+        width: 90%;
+        height: 1200Px;
+        margin: 0 auto;
+    }
+
+    #left-challenge, #right-challenge {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-challenge {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .left-challenge-text, .right-challenge-text {
+        width: inherit;
+    }
+    .left-challenge-text h2, .right-challenge-text h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    hr {
+        display: none;
+    }
 }
