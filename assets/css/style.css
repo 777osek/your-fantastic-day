@@ -79,11 +79,20 @@ h1,h2 {
 #happy-people-image {
     height: 650px;
     width: 100%;
-    background: url("../images/happy-people.jpg")no-repeat center -95px;
+    background: url("../images/happy-people.jpg") no-repeat center -95px;
     background-size: cover;
     animation-name: happy-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+@keyframes happy-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
 }
 
 #challenge-text {
@@ -94,14 +103,15 @@ h1,h2 {
     letter-spacing: 1px;
     width: 300px;
     height: 150px;
-    padding: 20px;
-    background-color: rgba(169, 64, 201, .8);
+    padding: 15px;
+    background-color: rgba(255, 255, 255, .85);
     background-position: center;
     border-radius: 10px;
-    top: 30px;
-    left: 620px;
+    top: 430px;
+    left: 100px;
     position: absolute;
 }
+
 
 /* section challenge statments */
 
@@ -170,22 +180,14 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url("../images/Challenge-1.png") no-repeat center center;
-    background-size: cover;
+    background: url("../images/Challenge-2.png") no-repeat center center;
+    background-size: 83%;
+    background-color: #fff;
     height: 100%;
     border-radius: 50%;
 }
 
 
-
-@keyframes happy-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.05);
-    }
-}
 
 /* footer */
 
