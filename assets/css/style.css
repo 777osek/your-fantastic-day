@@ -190,6 +190,114 @@ hr {
     border-radius: 50%;
 }
 
+/* section for CTA buttom */
+
+#cta {
+    height: 300px;
+}
+
+#cta-be-happy {
+    padding-top: 30px;
+    float: right;
+    width: 40%;
+}
+
+#cta-need-help {
+    padding-top: 30px;
+    float: left;
+    width: 40%;
+}
+
+#cta-center {
+    padding-top: 30px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.left-cta-text {
+    clear: both;
+    width: 70%;
+    float: left;
+    text-transform: none;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.right-cta-text {
+    clear: both;
+    width: 70%;
+    float: left;
+    text-transform: none;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#cta-circle-container {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #a940c9;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#cta-circle-cover-bg {
+    background-color: #a940c9;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* the buttom is generated from https://buttonoptimizer.com/ */
+#cta-happy-buttom {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 21px 40px;
+    border: 1px solid #88339d;
+    border-radius: 8px;
+    background: #dd53ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#dd53ff), to(#88339d));
+    background: -moz-linear-gradient(top, #dd53ff, #88339d);
+    background: linear-gradient(to bottom, #dd53ff, #88339d);
+    -webkit-box-shadow: #cc4deb 0px 0px 40px 0px;
+    -moz-box-shadow: #cc4deb 0px 0px 40px 0px;
+    box-shadow: #cc4deb 0px 0px 40px 0px;
+    font: normal normal bold 30px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+#cta-happy-buttom:hover, #cta-happy-buttom:focus {
+    border: 1px solid #aa40c4;
+    background: #ff64ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff64ff), to(#a33dbc));
+    background: -moz-linear-gradient(top, #ff64ff, #a33dbc);
+    background: linear-gradient(to bottom, #ff64ff, #a33dbc);
+    color: #ffffff;
+    text-decoration: none;
+}
+#cta-happy-buttom:active {
+    background: #88339d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#88339d), to(#88339d));
+    background: -moz-linear-gradient(top, #88339d, #88339d);
+    background: linear-gradient(to bottom, #88339d, #88339d);
+}
+#cta-happy-buttom:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("../images/BeHappyButtom-1.png") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
 
 
 /* footer */
