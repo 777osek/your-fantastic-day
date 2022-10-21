@@ -193,25 +193,21 @@ hr {
 /* section for CTA happy & help buttom */
 
 #happy, #help {
-    height: 150px;
+    height: 100px;
 }
 
-#cta-be-happy, #cta-need-help {
-    padding-top: 15px;
-    float: left;
-    width: 100%;
-}
-
-.left-cta-text, .right-cta-text {
+#cta-happy-text, #cta-help-text {
     clear: both;
-    width: 70%;
-    float: left;
-    margin-left: 50px;
-    text-transform: none;
-    text-align: left;
-    line-height: 30px;
-    margin-bottom: 10px;
+    width: 100%
 }
+
+.cta-be-happy, .cta-need-help {
+    padding-top: 15px;
+    width: 100%
+    te
+}
+
+
 
 /* the buttom Be Happy is generated from https://buttonoptimizer.com/ */
 
