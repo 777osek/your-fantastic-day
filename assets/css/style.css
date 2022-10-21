@@ -293,8 +293,6 @@ hr {
     background: linear-gradient(to bottom, #424242, #424242);
 }
 
-
-
 /* footer */
 
 footer {
@@ -324,6 +322,90 @@ div > p {
     font-size: 200%;
     padding: 15px 30px;
     color: black;
+}
+
+/* be happy page and section your fantastic day */
+
+#fantastic-day {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#your-fantastic-day-image {
+    height: 800px;
+    width: 100%;
+    background: url("../images/Your-fantastic-day-en.jpg") no-repeat center center;
+    background-size: 100%;
+}
+
+/* section I am so happy and greatful affirmation text */
+
+#happy-greatful {
+    height: 1200px;
+    width: 100%;
+}
+
+#left-affirmation {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-affirmation {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+#left-happy-basic-text {
+    padding: 30px;
+    float: left;
+    width: 90%;
+    text-align: left;
+    margin: 0px;
+    font-size: 250%;
+    text-transform: none;
+}
+
+#right-happy-basic-text {
+    padding: 30px;
+    float: left;
+    width: 90%;
+    text-align: left;
+    margin: 0px;
+    font-size: 250%;
+    text-transform: none;
+}
+
+.left-affirmation-text {
+    width: 85%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.right-affirmation-text {
+    width: 85%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.left-affirmation-text h2, .right-affirmation-text h2 {
+    text-transform: none;
+    font-size: 150%;
+}
+
+hr {
+    border: 1px solid #a940c9;
+    width: 90%;
+    margin: 5px 0;
 }
 
 /* media screen less then 1200px wide and down */
@@ -401,11 +483,21 @@ div > p {
         margin: 10px;
         font-size: 160%;
     }
+
+    /* be happy page and section your fantastic day */
+    #fantastic-day {
+        height: 450px;
+    }
+
+    #your-fantastic-day-image {
+        height: 450px;
+    }
+
 }
 
-/* media screen less then 600px wide and down */
+/* media screen less then 700px wide and down */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     
     #logo {
         margin-left: 0;
@@ -459,5 +551,13 @@ div > p {
     #cta-happy-text, #cta-help-text {
         margin: 10px;
         font-size: 150%;
+    }
+
+    /* be happy page and section your fantastic day */
+    #fantastic-day {
+        height: 250px;
+    }
+    #your-fantastic-day-image {
+        height: 250px;
     }
 }
