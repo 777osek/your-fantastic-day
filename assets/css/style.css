@@ -193,27 +193,26 @@ hr {
 /* section for CTA happy & help buttom */
 
 #happy, #help {
-    height: 100px;
+    height: 200px;
+    width: 100%;
 }
 
 #cta-happy-text, #cta-help-text {
     clear: both;
-    width: 100%
+    width: 100%;
+    text-align: center;
 }
 
 .cta-be-happy, .cta-need-help {
-    padding-top: 15px;
-    width: 100%
-    te
-}
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
 
 /* the buttom Be Happy is generated from https://buttonoptimizer.com/ */
 
 #cta-happy-buttom {
-    float: right;
-    margin-right: 50px;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -253,8 +252,6 @@ hr {
 /* the buttom Need Help is generated from https://buttonoptimizer.com/ */
 
 #cta-help-buttom {
-    float: right;
-    margin: 30px 50px;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
