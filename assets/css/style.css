@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap')
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap");
 
 body {
     font-family: lato, sans-serif;
@@ -24,7 +18,6 @@ h1,h2 {
 
 #logo {
     margin: 0;
-    height: 75px;
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -34,7 +27,6 @@ h1,h2 {
 /* navigation */
 
 #menu {
-    height: 75px;
     font-size: 110%;
     letter-spacing: 1px;
 }
@@ -68,15 +60,15 @@ h1,h2 {
 /* section happy people */
 
 #happy-people {
-    height: 650px;
     width: 100%;
+    height: 735px;
     overflow: hidden;
     position: relative;
 }
 
 #happy-people-image {
-    height: 650px;
     width: 100%;
+    height: 735px;
     background: url("../images/happy-people.jpg") no-repeat center -270px;
     background-size: cover;
     animation-name: happy-zoom;
@@ -100,22 +92,17 @@ h1,h2 {
     text-align: center;
     letter-spacing: 1px;
     width: 300px;
-    height: 150px;
     padding: 15px;
     background-color: rgba(255, 255, 255, .85);
     background-position: center;
     border-radius: 10px;
-    top: 430px;
+    top: 330px;
     left: 100px;
     position: absolute;
 }
 
 
 /* section challenge statments */
-
-#challenge-question {
-    height: 600px;
-}
 
 #challenge {
     text-align: center;
@@ -193,7 +180,6 @@ hr {
 /* section for CTA happy & help buttom */
 
 #happy, #help {
-    height: 200px;
     width: 100%;
 }
 
@@ -210,7 +196,6 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
   }
 
 /* the buttom Be Happy is generated from https://buttonoptimizer.com/ */
@@ -223,7 +208,7 @@ hr {
     border: 1px solid #88339d;
     border-radius: 8px;
     background: #dd53ff;
-    background: -webkit-gradient(linear, left top, left bottom, from(#dd53ff), to(#88339d));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#dd53ff), to(#88339d)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #dd53ff, #88339d);
     background: linear-gradient(to bottom, #dd53ff, #88339d);
     -webkit-box-shadow: #cc4deb 0px 0px 40px 0px;
@@ -239,7 +224,7 @@ hr {
 #cta-happy-buttom:hover, #cta-happy-buttom:focus {
     border: 1px solid #aa40c4;
     background: #ff64ff;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff64ff), to(#a33dbc));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#ff64ff), to(#a33dbc)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #ff64ff, #a33dbc);
     background: linear-gradient(to bottom, #ff64ff, #a33dbc);
     color: #ffffff;
@@ -248,7 +233,7 @@ hr {
 
 #cta-happy-buttom:active {
     background: #88339d;
-    background: -webkit-gradient(linear, left top, left bottom, from(#88339d), to(#88339d));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#88339d), to(#88339d));*/
     background: -moz-linear-gradient(top, #88339d, #88339d);
     background: linear-gradient(to bottom, #88339d, #88339d);
 }
@@ -263,7 +248,7 @@ hr {
     border: 1px solid #424242;
     border-radius: 8px;
     background: #7d7d7d;
-    background: -webkit-gradient(linear, left top, left bottom, from(#7d7d7d), to(#424242));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#7d7d7d), to(#424242)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #7d7d7d, #424242);
     background: linear-gradient(to bottom, #7d7d7d, #424242);
     -webkit-box-shadow: #a940c9 0px 0px 40px 0px;
@@ -279,7 +264,7 @@ hr {
 #cta-help-buttom:hover, #cta-help-buttom:focus {
     border: 1px solid #4e4e4e;
     background: #969696;
-    background: -webkit-gradient(linear, left top, left bottom, from(#969696), to(#4f4f4f));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#969696), to(#4f4f4f)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #969696, #4f4f4f);
     background: linear-gradient(to bottom, #969696, #4f4f4f);
     color: #ffffff;
@@ -288,7 +273,7 @@ hr {
 
 #cta-help-buttom:active {
     background: #424242;
-    background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#424242));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#424242)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #424242, #424242);
     background: linear-gradient(to bottom, #424242, #424242);
 }
@@ -296,8 +281,6 @@ hr {
 /* footer */
 
 footer {
-     
-    height: 150px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -327,15 +310,15 @@ div > p {
 /* be happy page and section your fantastic day */
 
 #fantastic-day {
-    height: 800px;
     width: 100%;
+    height: 800px;
     overflow: hidden;
     position: relative;
 }
 
 #your-fantastic-day-image {
-    height: 800px;
     width: 100%;
+    height: 800px;
     background: url("../images/Your-fantastic-day-en.jpg") no-repeat center center;
     background-size: 100%;
 }
@@ -343,7 +326,6 @@ div > p {
 /* section I am so happy and greatful affirmation text */
 
 #happy-greatful {
-    height: 1500px;
     width: 100%;
 }
 
@@ -411,12 +393,10 @@ hr {
 /* section for CTA happy & help buttom */
 
 #why {
-    height: 250px;
     width: 100%;
 }
 
 #more-help {
-    height: 300px;
     width: 100%;
 }
 
@@ -452,7 +432,7 @@ hr {
     border: 1px solid #88339d;
     border-radius: 8px;
     background: #dd53ff;
-    background: -webkit-gradient(linear, left top, left bottom, from(#dd53ff), to(#88339d));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#dd53ff), to(#88339d)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #dd53ff, #88339d);
     background: linear-gradient(to bottom, #dd53ff, #88339d);
     -webkit-box-shadow: #cc4deb 0px 0px 40px 0px;
@@ -468,7 +448,7 @@ hr {
 #cta-why-buttom:hover, #cta-why-buttom:focus {
     border: 1px solid #aa40c4;
     background: #ff64ff;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff64ff), to(#a33dbc));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#ff64ff), to(#a33dbc)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #ff64ff, #a33dbc);
     background: linear-gradient(to bottom, #ff64ff, #a33dbc);
     color: #ffffff;
@@ -477,7 +457,7 @@ hr {
 
 #cta-why-buttom:active {
     background: #88339d;
-    background: -webkit-gradient(linear, left top, left bottom, from(#88339d), to(#88339d));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#88339d), to(#88339d)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #88339d, #88339d);
     background: linear-gradient(to bottom, #88339d, #88339d);
 }
@@ -492,7 +472,7 @@ hr {
     border: 1px solid #424242;
     border-radius: 8px;
     background: #7d7d7d;
-    background: -webkit-gradient(linear, left top, left bottom, from(#7d7d7d), to(#424242));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#7d7d7d), to(#424242)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #7d7d7d, #424242);
     background: linear-gradient(to bottom, #7d7d7d, #424242);
     -webkit-box-shadow: #a940c9 0px 0px 40px 0px;
@@ -508,7 +488,7 @@ hr {
 #cta-more-help-buttom:hover, #cta-more-help-buttom:focus {
     border: 1px solid #4e4e4e;
     background: #969696;
-    background: -webkit-gradient(linear, left top, left bottom, from(#969696), to(#4f4f4f));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#969696), to(#4f4f4f)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #969696, #4f4f4f);
     background: linear-gradient(to bottom, #969696, #4f4f4f);
     color: #ffffff;
@@ -517,7 +497,7 @@ hr {
 
 #cta-more-help-buttom:active {
     background: #424242;
-    background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#424242));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#424242)); ---- this code line seems not not to be supported ----*/
     background: -moz-linear-gradient(top, #424242, #424242);
     background: linear-gradient(to bottom, #424242, #424242);
 }
@@ -536,20 +516,19 @@ hr {
         margin: 0;
         padding-left: 30px;
     }
-
-    #happy-people {
-        height: 400px;
-    }
     
+    #happy-people {
+        height: 530px;
+    }
+
     #happy-people-image {
-        background-position: center -95px;
         height: 500px;
+        background-position: center -95px;
     }
 
     #challenge-text {
         left: 0;
         width: 200px;
-        height: 130px;
         padding: 15px;
         top: 230px;
         font-size: 100%;
@@ -563,7 +542,6 @@ hr {
 
     #challenge-question {
         width: 90%;
-        height: 1230Px;
         margin: 0 auto;
     }
 
@@ -599,29 +577,32 @@ hr {
     }
 
     /* be happy page and section your fantastic day */
-    #fantastic-day {
-        height: 450px;
-    }
 
+    #fantastic-day {
+        height: 500px;
+    }
+    
     #your-fantastic-day-image {
-        height: 450px;
+        height: 500px;
+        background-size: 100%;
     }
 
     #happy-greatful {
         width: 100%;
-        height: 2300px;
     }
     
     #left-affirmation {
         width: 100%;
-        height: 1000px;
         float: left;
     }
 
     #right-affirmation {
         width: 100%;
-        height: 1000px;
         float: left;
+    }
+
+    .left-affirmation-text h2, .right-affirmation-text h2 {
+        font-size: 160%;
     }
     
     #cta-why-text, #cta-more-help-text {
@@ -637,7 +618,7 @@ hr {
     #logo {
         margin-left: 0;
         padding-left: 15px;
-        font-size: 180%;
+        font-size: 150%;
     }
     
     #menu {
@@ -645,27 +626,17 @@ hr {
         font-size: 90%;
     }
 
-    #happy-people {
-        height: 400px;
-    }
-    
-    #happy-people-image {
-        height: 500px;
-    }
-
     #challenge {
-        font-size: 180%;
+        font-size: 150%;
     }
 
     #challenge-question {
         width: 80%;
-        height: 1200Px;
         margin: 0 auto;
     }
 
     #challenge-text {
         width: 200px;
-        height: 130px;
         padding: 15px;
         top: 230px;
         font-size: 100%;
@@ -687,28 +658,23 @@ hr {
 
     #cta-happy-text, #cta-help-text {
         margin: 5px;
-        font-size: 150%;
+        font-size: 130%;
     }
 
     /* be happy page and section your fantastic day */
+
     #fantastic-day {
-        height: 220px;
+        height: 300px;
     }
+    
     #your-fantastic-day-image {
-        height: 220px;
-    }
-
-    #happy-greatful {
-        height: 2200px;
-    }
-
-    #left-affirmation, #right-affirmation {
-        height: 950px;
+        height: 300px;
+        background-size: 100%;
     }
 
     #left-happy-basic-text {
         padding: 15px;
-        font-size: 150%;
+        font-size: 130%;
     }
     
     #right-happy-basic-text {
@@ -722,6 +688,6 @@ hr {
 
     #cta-why-text, #cta-more-help-text {
         margin: 5px;
-        font-size: 150%;
+        font-size: 130%;
     }
 }
