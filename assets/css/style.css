@@ -590,7 +590,7 @@ hr {
     }
 
     hr {
-        display: none;
+        width: 100%;
     }
 
     #cta-happy-text, #cta-help-text {
@@ -607,16 +607,32 @@ hr {
         height: 450px;
     }
 
+    #happy-greatful {
+        width: 100%;
+        height: 2300px;
+    }
+    
+    #left-affirmation {
+        width: 100%;
+        height: 1000px;
+        float: left;
+    }
+
+    #right-affirmation {
+        width: 100%;
+        height: 1000px;
+        float: left;
+    }
+    
     #cta-why-text, #cta-more-help-text {
         margin: 10px;
         font-size: 160%;
     }
-
 }
 
-/* media screen less then 700px wide and down */
+/* media screen less then 800px wide and down */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     
     #logo {
         margin-left: 0;
@@ -643,7 +659,7 @@ hr {
 
     #challenge-question {
         width: 80%;
-        height: 1150Px;
+        height: 1200Px;
         margin: 0 auto;
     }
 
@@ -660,6 +676,8 @@ hr {
     }
 
     #circle-container {
+        width: 250px;
+        height: 250px;
         padding: 15px;
     }
     
@@ -668,15 +686,42 @@ hr {
     }
 
     #cta-happy-text, #cta-help-text {
-        margin: 10px;
+        margin: 5px;
         font-size: 150%;
     }
 
     /* be happy page and section your fantastic day */
     #fantastic-day {
-        height: 250px;
+        height: 220px;
     }
     #your-fantastic-day-image {
-        height: 250px;
+        height: 220px;
+    }
+
+    #happy-greatful {
+        height: 2200px;
+    }
+
+    #left-affirmation, #right-affirmation {
+        height: 950px;
+    }
+
+    #left-happy-basic-text {
+        padding: 15px;
+        font-size: 150%;
+    }
+    
+    #right-happy-basic-text {
+        padding: 15px;
+        font-size: 130%;
+    }
+
+    .left-affirmation-text h2, .right-affirmation-text h2 {
+        font-size: 100%;
+    }
+
+    #cta-why-text, #cta-more-help-text {
+        margin: 5px;
+        font-size: 150%;
     }
 }
