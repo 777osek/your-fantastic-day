@@ -7,6 +7,10 @@ body {
     background-color: #cac4ce;
 }
 
+p {
+    margin: 0;
+}
+
 /* heading and logo */
 
 h1,h2 {
@@ -281,8 +285,7 @@ hr {
 /* footer */
 
 footer {
-    left: 0;
-    bottom: 0;
+    float: left;
     width: 100%;
     background-color: rgba(169, 64, 201, .3);
     color: black;
@@ -502,6 +505,14 @@ hr {
     background: linear-gradient(to bottom, #424242, #424242);
 }
 
+/* need help page with contact form */
+
+#form-help {
+    width: 100%;
+    float: left;
+    margin: 0 0 0 30px;
+}
+
 /* media screen less then 1200px wide and down */
 
 @media screen and (max-width:1200px) {
@@ -689,5 +700,9 @@ hr {
     #cta-why-text, #cta-more-help-text {
         margin: 5px;
         font-size: 130%;
+    }
+
+    #form-help {
+        margin: 0 0 0 15px;
     }
 }
