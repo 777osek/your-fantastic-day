@@ -323,6 +323,23 @@ div > p {
     background-size: 100%;
 }
 
+#fantastic-day-text {
+    font-size: 130%;
+    font-family: roboto, sans-serif;
+    text-transform: none;
+    text-align: left;
+    letter-spacing: 1px;
+    width: 60%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, .85);
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #a940c9;
+    top: 50px;
+    left: 30px;
+    position: absolute;
+}
+
 /* section I am so happy and greatful affirmation text in be-happy.html */
 
 #happy-greatful {
@@ -584,6 +601,16 @@ hr {
         height: 420px;
     }
 
+    #fantastic-day-text {
+        font-size: 100%;
+        width: 70%;
+        padding: 10px 5px 10px 20px;
+        border: 1px solid #a940c9;
+        top: 10px;
+        left: 15px;
+        position: absolute;
+    }
+
     #happy-greatful {
         width: 100%;
     }
@@ -661,7 +688,18 @@ hr {
     /* be happy page and section your fantastic day */
 
     #fantastic-day, #your-fantastic-day-image {
-        height: 270px;
+        height: 400px;
+    }
+
+    #fantastic-day-text {
+        font-size: 90%;
+        width: 70%;
+        padding: 10px 5px 10px 20px;
+        background-color: rgba(255, 255, 255, .75);
+        border: 1px solid #a940c9;
+        top: 0px;
+        left: 10px;
+        position: absolute;
     }
 
     #left-happy-basic-text {
