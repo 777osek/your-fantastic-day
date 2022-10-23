@@ -530,11 +530,6 @@ hr {
     color: black;
 }
 
-.text-input:hover {
-    border-color: #a940c9;
-    border-style: 2px solid;
-}
-
 .send-message {
     display: inline-block;
     text-align: center;
