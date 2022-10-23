@@ -36,9 +36,14 @@
     <section id="form-help">
         <h1>Do you Need more Help?</h1>
         <form action="contact" method="post">
-            <label for="fmane">Full Name:</label>
+            <label for="fmane">First Name:</label>
             <br>
-            <input type="text" id="fname" class="formfield" required autofocus placeholder="First & last name">
+            <input type="text" id="fname" class="formfield" required autofocus placeholder="First name">
+            <br>
+            <br>
+            <label for="lmane">Last Name:</label>
+            <br>
+            <input type="text" id="lname" class="formfield" required autofocus placeholder="Last name">
             <br>
             <br>
             <label for="email">e-mail:</label>
@@ -60,7 +65,36 @@
             <br>
             <input type="radio" name="type-of-help" id="both" value="both">
             <label for="both">Both or something else</label>
-
+            <br>
+            <br>
+            <label for="statments">Which one of the following statments did you answered Yes to?</label>
+            <br>
+            <input type="checkbox" name="statment-1" id="statment-1">
+            <label for="statment-1">You want to get more out of life, but you don't know how.</label>
+            <br>
+            <input type="checkbox" name="statment-2" id="statment-2">
+            <label for="statment-2">You feel stuck.</label>
+            <br>
+            <input type="checkbox" name="statment-3" id="statment-3">
+            <label for="statment-3">You have dreams/goals, but it feels like nothing is happening.</label>
+            <br>
+            <input type="checkbox" name="statment-4" id="statment-4">
+            <label for="statment-4">You have many good ideas but you fail to realize them.</label>
+            <br>
+            <input type="checkbox" name="statment-5" id="statment-5">
+            <label for="statment-5">You don't know what or where you want, but still want something more.</label>
+            <br>
+            <input type="checkbox" name="statment-6" id="statment-6">
+            <label for="statment-6">You want to change work or the situation you are currently in.</label>
+            <br>
+            <input type="checkbox" name="statment-7" id="statment-7">
+            <label for="statment-7">You want to create better financial security for yourself and your family.</label>
+            <br>
+            <br>
+            <input type="submit" value="Send message" name="submit" class="send-message">
+            <input type="reset" value="Reset" class="reset">
+            <br>
+            <br>
         </form>
     </section>
     
